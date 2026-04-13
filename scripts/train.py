@@ -16,7 +16,7 @@ from utils.config import load_config
 
 # 如果你决定继续沿用旧 iter，就从旧文件里导入
 # 假设你把它整理成 dataiter.py
-from data.dataiter import DataIter
+from dataio.dataiter import DataIter
 
 
 def build_basic_transforms(cfg):

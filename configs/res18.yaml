@@ -1,7 +1,7 @@
 data:
-  train_dir: ./data/imagenet100/train
-  val_dir: ./data/imagenet100/val
-  image_size: 128
+  train_dir: ./data/tiny-imagenet-200/train
+  val_dir: ./data/tiny-imagenet-200/val_fixed
+  image_size: 64
   mean: [0.485, 0.456, 0.406]
   std: [0.229, 0.224, 0.225]
 
